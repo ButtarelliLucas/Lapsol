@@ -4,55 +4,110 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../images/1622681213031.ico">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/animate.css"/>
+        <link rel="stylesheet" href="../css/hover-min.css" media="all">
         <link rel="stylesheet" href="../css/Style.css">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <title>Contacto</title>
     </head>
-    <body class="bodyContacto"">
-        <header class="header">
-            <div>
-                <img src="../images/1622681213031.jfif" alt="Logo Lapsol"  width="100px">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="./Clientes.html">Clientes</a></li>
-                    <li><a href="./Obras.html">Obras</a></li>
-                    <li><a href="./Servicios.html">Servicios</a></li>
-                    <li><a href="../index.html"">Inicio</a></li>
-                </ul>
-            </div>
+    <body class="body">
+        <header class="FondoOpacidad ">
+            <nav class="navbar navbar-expand-xl navbar-light header container-fluid">
+                <div class="container-fluid align-items-center">
+                    <div class="  ">
+                        <a href="../index.html" class="d-flex row align-items-center nav-link">
+                            <img src="../images/1622681213031.png" alt="LogoLapsol" class="navbar-nav col animate__animated animate__fadeIn hvr-grow  " width="60vh" height="60vh">
+                            <div class="col navbar-brand d-flex FuenteTitulos LetraBlanca animate__animated animate__fadeIn hvr-grow hidefullscreennav">Lapsol S.A.</div>
+                        </a>
+                    </div>
+                    <button class="navbar-toggler navbar-toggler-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                    </button>
+                    <div class="collapse navbar-collapse
+                    flex-grow-0 align-items-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex ">
+                            <div class=" border-top border-navbar container-lg hidefullscreen"></div>
+                            <li class="nav-item">
+                                <a class="nav-link active animate__animated animate__fadeIn hvr-underline-from-left" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link animate__animated animate__fadeIn hvr-underline-from-left" href="../pages/Servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active animate__animated animate__fadeIn hvr-underline-from-left " aria-current="page" href="../pages/Obras.html">Obras</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link animate__animated animate__fadeIn hvr-underline-from-left" href="../pages/Clientes.html">Clientes</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link animate__animated animate__fadeIn hvr-underline-from-left" href="#">Contacto</a>
+                            </li>
+                            <div class=" mt-1 border-top border-navbar container-lg hidefullscreen"></div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
-        <main>
-            <div class="Nosotros">
-                <h1>Contacto</h1>
-                <p>Ingrese sus datos de contacto</p>
-                <!--formulario de contacto input-->
-                <form>
-                    <div>
-                        <input type="text" placeholder="Nombre y Apellido">
+        <main class="FondoOpacidad">
+            <section class="FondoOpacidad" >
+                <div class="container-xl animate__animated animate__fadeIn" >
+                    <div class="row  ">
+                        <div class="col-md-6 align-items-center ">
+                            <h1 class="mb-3 LetraBlanca">Contacto</h1>
+                            <h5 class="mb-3 LetraBlancaContacto">Por favor complete todos los campos del formulario para enviar su mensaje.</h5>
+                            
+                            <!--formulario de contacto input-->
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control mb-3 border-naranja" value="" required placeholder="Nombre" aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control mb-3 border-naranja" value="" required placeholder="Apellido" aria-label="Last name">
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control mb-3 border-naranja" value="" required placeholder="Email" aria-label="First name">
+                                <input type="text" class="form-control mb-3 border-naranja" value="" required placeholder="Asunto" aria-label="First name">
+                                <div class="mb-3">
+                                    <textarea class="form-control border-naranja"  value="" required id="exampleFormControlTextarea1" placeholder="Mensaje" rows="10"></textarea>
+                                </div>
+                                <div class="mb-5 ">
+                                    <div>
+                                        <input type="submit" class="btn btn-lg   btn-naranja FondoOpacidad">
+                                    </div>
+                                </div>
+                            </form>    
+                        </div>
+                        <div class="col-md-6 align-items-center  ">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37131.10462814035!2d-58.576971235115096!3d-34.65578925694896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7d93bab75a3%3A0xaafe140bc9dea3db!2sRamos%20Mej%C3%ADa%2C%20Buenos%20Aires%20Province%2C%20Argentina!5e0!3m2!1sen!2suy!4v1670203195562!5m2!1sen!2suy" width="100%" height="100%" style="border:0;" allowfullscreen="" class="animate__animated animate__fadeIn animate__delay-1s " referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
-                    <div>
-                        <input type="number" placeholder="Telefono">
-                    </div>
-                    <div>
-                        <input type="email" placeholder="Ingrese su email">
-                    </div>
-                    <div>
-                        <input type="submit" name="" id="">
-                    </div>
-                </form>
-            </div>
+                </div>
+            
+            </section>
+            <section class="FondoOpacidad ">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            </section>
         </main>
-        <footer> 
-            <section>
-                <a href="http://www.instagram.com">Instagram</a>
-                <a href="http://www.facebook.com">Facebook</a>
-                <a href="http://www.whatsapp.com">Whatsapp</a>
+
+    <footer class="FondoOpacidad">
+            <br> 
+            <section class="FuenteTitulos">
+                <a href="http://www.instagram.com" target="_blank" class="hvr-grow">Instagram</a>
+                <a href="http://www.facebook.com" target="_blank" class="hvr-grow">Facebook</a>
+                <a href="http://www.whatsapp.com" target="_blank" class="hvr-grow">Whatsapp</a>
             </section>
             <div>  
-                <p>Todos los derechos reservados</p>
+                <p class="text-muted">Todos los derechos reservados</p>
             </div>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"> </script>
     </body>
 </html>
