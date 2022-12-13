@@ -15,6 +15,9 @@
         <title>Lapsol S.A.</title>
     </head>
     <body class="FondoOpacidad font-family" >
+        <div class="container-sm">
+            <div class="loader container-sm"></div>
+        </div>
 
 
         <header class="FondoOpacidad ">
@@ -70,20 +73,20 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active ratio ratio-21x9">
-                                    <img class=" " width="100%" height="100%" src="./images/obra1.webp" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+                                    <img class="bd-placeholder-img img-fluid" width="100%" height="100%" src="./images/obra1.webp" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
                                     <div class="container sm">
-                                        <div class="carousel-caption text-start ">
+                                        <div class="carousel-caption text-start d-none d-sm-block">
                                             <h1 class="FuenteTitulos  SombraTexto h1">Empresa Constructora</h1>
                                             <p class="h5">Realizamos construcciones tradicionales, ampliaciones, refacciones y más.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item ratio ratio-21x9">
-                                    <img class="bd-placeholder-img" width="100%" height="100%" src="./images/obra2.webp"
+                                    <img class="bd-placeholder-img img-fluid" width="100%" height="100%" src="./images/obra2.webp"
                                     xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
                             
                                     <div class="container">
-                                        <div class="carousel-caption">
+                                        <div class="carousel-caption d-none d-sm-block ">
                                             <h1 class="FuenteTitulos SombraTexto ">Proyección</h1>
                                             <p class="h5 SombraTexto">Ideamos, planificamos y ejecutamos todo.</p>
                                         </div>
@@ -93,7 +96,7 @@
                                     <img class="bd-placeholder-img" width="100%" src="./images/obra3.webp" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
                             
                                     <div class="container">
-                                        <div class="carousel-caption text-end">
+                                        <div class="carousel-caption text-end d-none d-sm-block ">
                                             <h1 class="FuenteTitulos SombraTexto">Creciendo día a día</h1>
                                             <p class="h5 SombraTexto">Años de trayectoria y éxito en los proyectos nos hacen crecer dia a dia.</p>
                                             <p><a class="btn btn-sm btn-naranja FondoOpacidad hideresponsive" href="./pages/Servicios.html">Contáctenos</a></p>
@@ -198,5 +201,11 @@
             </div>
         </footer>
         <script src="./js/bootstrap.bundle.min.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $(".loader").delay(7000).fadeOut("slow");
+            });
+            </script>
     </body>
 </html>

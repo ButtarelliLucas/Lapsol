@@ -11,6 +11,7 @@ body {
     color: #000000;
     height: 100%;
     
+    
 }
 /* intente agregar opacidad por encima del background image sin resultado aplicando
 .backgroundColorOpacity {
@@ -26,6 +27,7 @@ body {
 html {
     margin-bottom: 0px;
     height: 100%;
+    
 
 }
 
@@ -100,6 +102,37 @@ li a{
     list-style: none;
     -webkit-text-fill-color: #D7CCC8;
 }
+
+.banner1 {
+    background-image:url(../images/banner1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.banner2 {
+    background-image:url(../images/banner2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center; 
+}
+
+.banner3 {
+    background-image:url(../images/banner3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;   
+}
+
+.banner4 {
+    background-image:url(../images/banner4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;   
+}
+
+
 .Nosotros {
     text-align:left;
     font-size: 5vh;
@@ -137,7 +170,8 @@ li a{
     font-family: 'Bebas Neue';}
 
 .FuenteTitulos {
-    font-family: 'Bebas Neue';}
+    font-family: 'Bebas Neue';
+}
 
 
 
@@ -166,12 +200,12 @@ li a{
 .btn-naranja {
     color: #fff;
     background-color: #fd7a1c;
-    border-color: #fd7a1c;
+    border-color: #df6c1a;
 }
 .btn-naranja:hover {
     color: #fff;
-    background-color: #fd781c;
-    border-color: #fd7a1c;
+    background-color: #cc6216;
+    border-color: #c96117;
 }
 
 .w-65 {
@@ -203,7 +237,7 @@ li a{
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 253, 253, 0.507);
     background-clip: border-box;
     border: 2px solid rgba(0, 0, 0, 0.459);
     border-radius: 0.50rem;}
@@ -214,6 +248,8 @@ li a{
     border-color: #fd781c !important;}
 .border-naranja {
     border-color: #fd781c !important;}
+.border-naranja-inline {
+    border-color: #fd7a1c7e !important;}
 
 @media screen and (max-width: 990px) {
 .hideresponsive{
@@ -284,3 +320,19 @@ display:none ;
     -webkit-text-stroke: 2px #fd7a1c77;
 
 }
+
+.loader {
+    position: fixed;
+
+    left: 0px;
+    top: 0px;
+    max-width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/New-file.gif') 50% 50% no-repeat rgb(0, 0, 0);
+   
+    background-size:contain;
+    opacity: 1;
+   
+}
+
